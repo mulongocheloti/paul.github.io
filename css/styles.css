@@ -239,7 +239,7 @@ background: none;
 }
 
 .logo {
-    font-size: 2.2em;
+    font-size: 1.7em;
     text-shadow: none;
     margin: 8px 0 0 0;
 }
@@ -359,7 +359,7 @@ background: none;
     }
 
     .banner-content p {
-        font-size: 1.6em;
+        font-size: 1.5em;
         font-weight: normal;
         font-style: normal;
         color: #fff;
@@ -989,6 +989,13 @@ footer {
 		text-align: center;
 		position: relative;
 	}
+}
+	
+@media (max-width: 530px) {
+    .da-slide h2 {
+		font-size: 10px;
+	}
+}
 	
 @media (max-width: 2160px) {
     .banner-container {
