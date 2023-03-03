@@ -17,7 +17,7 @@ body {
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
-    background: #E4E4E4;
+    background: ivory;
 }
 
 ::selection {
@@ -702,6 +702,7 @@ display: inherit;
 }
 
     #portfolio img {
+		border-radius: 5%;
         width: 100%;
     }
 
@@ -906,7 +907,7 @@ body {
 footer {
     border-top: 1px solid #e5e5e5;
     padding: 45px 0;
-    background: #fff;
+    background: currentColor;
 }
 
 .social a:hover {
